@@ -1,0 +1,26 @@
+{
+  "name": "bd-audit-reports",
+  "version": "1.0.0",
+  "description": "VitePress-based audit reports for adesso SE Business Developers",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "deploy": "npm run build && bash scripts/deploy.sh"
+  },
+  "dependencies": {
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maphilipps/bd-audit-reports.git"
+  },
+  "author": "Marc Philipps <marc.philipps@adesso.de>",
+  "license": "UNLICENSED"
+}
